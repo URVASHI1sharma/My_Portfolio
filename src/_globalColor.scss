@@ -3,88 +3,88 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
-$topButtonHover: #000;
+$buttonColor: #00b894;
+$buttonHover: #26de81;
+$topButtonHover: #0984e3;
 
 // text colors light theme
-$titleColor: #000000;
-$textColor: #000000;
-$subTitle: #868e96;
-$cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
-$blogCardTitleColor: #262626;
+$titleColor: #2c3e50;          // deep teal (same as your background — if used on white bg, looks great)
+$textColor: #000505;           // dark bluish-gray — elegant and readable
+$subTitle: #070707;            // medium muted gray, softer than before
+$cardSubtitle: #f0f5fb;        // cool gray-blue for card elements
+$talkCardSubTitle: #011212;    // neutral silver-gray — works well with teal
+$blogCardTitleColor: #d5f3fc;  // soft charcoal — readable and sleek
 
 // text color dark theme
-$textColorDark: #ffffff;
+$textColorDark: #ecf0f1; // soft white-gray for better readability on dark backgrounds
 
 // toggle switch colors
-$toggleCheck: #2196f3;
-$toggleSwitchSliderBG: #ccc;
+$toggleCheck: #1abc9c; // teal green (visually aligned with your theme)
+$toggleSwitchSliderBG: #202d3b; // dark muted teal instead of flat gray
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
-$githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
+$githubRepoCardLanguageColorBG: #1abc9c; // teal - aligns with your primary theme
+$githubRepoCardColor: #34495e; // deep blue-gray for modern card background
+$githubRepoCardRepoCardStatsColor: #7f8c8d; // subtle gray for stats
+$githubRepoCardRepoNameColor: #213242; // rich dark blue for repo title
+$githubProfileCardLocationTS: #dff9fb; // soft aqua for location
+$githubProfileCardBorder: #1abc9c; // match with theme teal
 
 // light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #586069;
-// dark background colors
-$darkBackground: #171c28;
+$lightBackground1: #cff6f6;           // very light teal-tinted white
+$lightBackground2: #bccfcf;           // subtle seafoam tone
+$lightBackground3: #89b6b6;           // soft cool gray-teal for depth
+$blogCardContainerColor: #eff6ff;     // dark slate (good text readability)
 
-// light theme box shadows
-$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
-$lightBoxShadow: rgba(0, 0, 0, 0.1);
-$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
+// Dark theme background
+$darkBackground: #21554c;             // rich teal-gray, softer than pitch black
 
-// dark theme box shadows
-$darkBoxShadow: #d9dbdf;
-$darkBoxShadow2: #ffffff;
+$lightBoxShadowDark: rgba(44, 62, 80, 0.25);      // soft shadow in dark slate tone
+$lightBoxShadow: rgba(44, 62, 80, 0.12);          // lighter variant for layering
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.35);       // stronger shadow for modals/cards
+
+// Dark theme box shadows
+$darkBoxShadow: rgba(255, 255, 255, 0.05);        // subtle light border glow
+$darkBoxShadow2: rgba(255, 255, 255, 0.1);         // slightly stronger for hover/active
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+  rgba(44, 62, 80, 0.6),  // dark teal overlay
+  rgba(44, 62, 80, 0.3)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+  rgba(44, 62, 80, 0.8),
+  rgba(44, 62, 80, 0.5)
 );
 
 // borders
-$progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$progressBarBackground: #e0f0f3; // very light teal background
+$lightBorder1: rgba(44, 62, 80, 0.2); // soft teal transparency
+$educationCardBorder: #2c3e50; // matches your theme (deep teal)
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$headerHoverBG: #f4f4f4;
-$contactDetailHoverTS: #b5b5b5;
+$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.1); // subtle white overlay
+$blogCardHoverSmallColor: rgba(44, 62, 80, 0.15); // soft teal hover for light theme
+$headerHoverBG: #eaf6f7; // light teal hover for nav/header
+$contactDetailHoverTS: #2c3e50; // dark teal to highlight interaction
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
-$iconBackground: #333;
-$appHeaderBG: #282c34;
+$progressBarSpanBG: #3fbac2; // elegant teal shade
+$iconBackground: #2c3e50; // consistent with dark theme
+$appHeaderBG: #22313f; // deeper shade of your main theme color
 
 // misc colors
-$skillsColor: #645beb;
-$appLink: #09d3ac;
+$skillsColor: #3fbac2; // matching your theme for skill highlights
+$appLink: #1abc9c; // vibrant yet professional teal-green
 
-// social media icons
+// social media icons (keep recognizable brand colors with slight moderation)
 $faceBook: #3b5998;
-$linkedin: #0e76a8;
-$github: #333;
-$gitlab: #fca326;
+$linkedin: #0a66c2; // updated LinkedIn blue
+$github: #2c3e50; // match your theme instead of flat black
+$gitlab: #fc6d26;
 $google: #ea4335;
 $twitter: #1da1f2;
-$medium: #000;
+$medium: #212121;
 $stackoverflow: #f48024;
-$instagram: #c13584;
+$instagram: #e4405f; // slightly deeper for contrast
 $kaggle: #20beff;

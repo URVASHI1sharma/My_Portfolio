@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/Intro.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Urvashi Sharma",
+  title: "Hi there, I'm Urvashi 👩‍💻",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A curious and driven explorer in the world of Data Science and Cybersecurity 🧠🔐. I thrive on uncovering insights from data, building intelligent systems, and securing the digital world with analytical precision."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/URVASHI1sharma",
+  linkedin: "https://www.linkedin.com/in/urvashi-sharma-b07a92163",
+  gmail: "urvashi010498@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,74 +49,49 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE LEARNER IN DATA SCIENCE & CYBERSECURITY EXPLORING SMART AND SECURE SOLUTIONS 🔍🔐",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("📊 Analyze and visualize complex datasets to uncover actionable insights"),
+    emoji("🤖 Build machine learning models for prediction, classification, and anomaly detection"),
+    emoji("🔐 Design secure systems and perform risk analysis & vulnerability assessments"),
+    emoji("🐍 Work with Python, SQL, scikit-learn, pandas, Power BI, and Jupyter Notebook"),
+    emoji("🧠 Enthusiastic about ethical hacking, threat modeling, and incident response")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "R",
+    fontAwesomeClassname: "fab fa-r-project"
+  },
+  {
+    skillName: "Tableau",
+    fontAwesomeClassname: "fas fa-chart-pie"
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "GitHub",
+    fontAwesomeClassname: "fab fa-github"
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Power BI",
+    fontAwesomeClassname: "fas fa-chart-bar"
+  },
+  {
+    skillName: "Jupyter Notebook",
+    fontAwesomeClassname: "fas fa-book"
+  },
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +101,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "JSS Science and Technological University",
+      logo: require("./assets/images/JSS.png"),
+      subHeader: "Master of Technology",
+      duration: "Feb 2023 - Mar 2025",
+      desc: "Specialized in Data Science, Machine Learning, and Cybersecurity.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Published IEEE paper: *'Implementation and Analysis of Energy Efficient LEACH-C Algorithm for Network of UAVs'*",
+        "Completed major project using MATLAB for energy-efficient UAV networking",
+        "Started shifting toward AI, data analytics, and cybersecurity"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "VidyVardhaka College of Engineering",
+      logo: require("./assets/images/VVCE.png"),
+      subHeader: "Bachelor of Engineering",
+      duration: "Aug 2016 - Jul 2020",
+      desc: "Specialized and Electronics and Communication Engineering",
+      descBullets: ["Created a Final Year project in VLSI.",
+        "Core memeber of Litertaure Club and Organized Literature Events",
+        "Led the university dance troupe — organized & choreographed multiple performances"
+      ]
     }
   ]
 };
@@ -150,7 +129,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,31 +153,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Trainee Engineer",
+      company: "Nokia",
+      companylogo: require("./assets/images/logo-nokia.png"),
+      date: "Oct 2023 - Jul 2024",
+      desc: "Contributed to validation and QA testing of Test Scripts, automating repetitive tasks and improving system reliability across multiple release cycles.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Automated regression testing tasks like power cycling and register dump extraction, reducing manual effort and time",
+        "Diagnosed and resolved SSH connectivity issues under thermal stress, enhancing device stability",
+        "Maintained detailed QA documentation and collaborated with developers for faster issue resolution"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Quality Analyst",
+      company: "Glowtronics Pvt Ltd",
+      companylogo: require("./assets/images/Glowtronics.png"),
+      date: "Jan 2021 - Feb 2023",
+      desc: "Led QA operations across six departments, ensuring ISO compliance, improving testing efficiency, and driving interdepartmental coordination for smoother audit readiness.",
+      descBullets: [
+        "Directed quality workflows across departments to ensure adherence to ISO standards and QA protocols",
+        "Improved efficiency by enhancing testing and raw material validation processes",
+        "Compiled quality audit reports and streamlined communication between QA and cross-functional teams"
+      ]
     }
-  ]
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -212,29 +190,30 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "REAL-WORLD PROBLEMS SOLVED WITH CODE, INSIGHTS, AND SECURITY",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Fraud.png"),
+      projectName: "Fraud Detection in Banking Transactions",
+      style: { width: "100%", height: "auto", objectFit: "contain", maxHeight: "250px"},
+      projectDesc: "Developed a machine learning model to detect fraudulent financial transactions using Logistic Regression, Random Forest, and XGBoost with a focus on precision-recall optimization.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/URVASHI1sharma/Fraud-Detection"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Sentiment.png"),
+      projectName: "Sentiment Analysis on Product Reviews",
+      projectDesc: "Built a sentiment classifier using NLP techniques on Amazon Food Reviews dataset. Applied text preprocessing, vectorization, and LSTM to classify user sentiment.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/URVASHI1sharma/Sentiment_analysis-Amazon_review"
         }
       ]
     }
@@ -248,57 +227,57 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, Conferences, and Recognitions that highlight my learning journey in Data Science, Cybersecurity, and more.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IEEE Conference Paper Presentation and Publication",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Presented a research paper on 'Energy Efficient LEACH-C Algorithm for UAV Networks' at the 2025 IEEE International Conference on Communication Systems and Network Technologies (CSNT).",
+      image: require("./assets/images/IEEE.png"),
+      imageAlt: "IEEE Conference",
       footerLink: [
+        
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Read Paper",
+          url: "https://ieeexplore.ieee.org/document/10967739"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google Data Analytics Certification",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed the Google Data Analytics Professional Certificate, covering data cleaning, analysis, and visualization using tools like R and Tableau.",
+      image: require("./assets/images/Google_DA_cert.png"),
+      imageAlt: "Google Data Analytics",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate",
+          url: ""
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+      title: "Data Visualization: Empowering Business with Effective Insights",
+      subtitle: "Created impactful data visualizations and client-ready insights for executive decision-making in a TCS simulation project.",
+      image: require("./assets/images/Forage.png"),
+      imageAlt: "Forage",
+    },
+
+    {
+      title: "Introduction to Cybersecurity - Simplilearn",
+      subtitle: "Learned the fundamentals of cybersecurity, including threats, risk assessment, policies, and response mechanisms.",
+      image: require("./assets/images/simplilearn.png"),
+      imageAlt: "Cybersecurity Certificate",
+    },
+
+    {
+      title: "Cyber Security Analyst - Identity and Access Management",
+      subtitle: "Completed a TCS Cybersecurity simulation focused on IAM, delivering documentation and presentations aligned with cybersecurity strategy and best practices.",
+      image: require("./assets/images/Forage.png"),
+      imageAlt: "Forage",
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +303,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +322,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,34 +335,33 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
+  resumeLink: "",
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Got a project, opportunity, or just want to connect? I'm just a message away.",
+  email_address: "urvashi010498@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -397,11 +375,11 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+  //blogSection,
+  //talkSection,
+  //podcastSection,
   contactInfo,
-  twitterDetails,
+  //twitterDetails,
   isHireable,
-  resumeSection
+  //resumeSection
 };
