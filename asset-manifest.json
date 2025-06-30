@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88ac7068.css",
+    "main.js": "/static/js/main.d7b3dcd7.js",
+    "static/css/64.2ddd0ea8.chunk.css": "/static/css/64.2ddd0ea8.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/769.a47ab166.chunk.css": "/static/css/769.a47ab166.chunk.css",
+    "static/js/769.da1be6c5.chunk.js": "/static/js/769.da1be6c5.chunk.js",
+    "static/media/logo-nokia.png": "/static/media/logo-nokia.e676d0cdefb6ce45ab6f.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/Fraud.png": "/static/media/Fraud.097d2f70ef35b0f99085.png",
+    "static/media/IEEE.png": "/static/media/IEEE.25b1bee58a9819b0f7f5.png",
+    "static/media/JSS.png": "/static/media/JSS.d320714deb1b0f5487c0.png",
+    "static/media/Google_DA_cert.png": "/static/media/Google_DA_cert.7d660bb152e882abc0bf.png",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "main.88ac7068.css.map": "/static/css/main.88ac7068.css.map",
+    "main.d7b3dcd7.js.map": "/static/js/main.d7b3dcd7.js.map",
+    "64.2ddd0ea8.chunk.css.map": "/static/css/64.2ddd0ea8.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "769.a47ab166.chunk.css.map": "/static/css/769.a47ab166.chunk.css.map",
+    "769.da1be6c5.chunk.js.map": "/static/js/769.da1be6c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88ac7068.css",
+    "static/js/main.d7b3dcd7.js"
+  ]
+}
