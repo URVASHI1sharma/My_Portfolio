@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.a12a6186.css",
-    "main.js": "/My_Portfolio/static/js/main.30521b8b.js",
-    "static/css/64.fd094456.chunk.css": "/My_Portfolio/static/css/64.fd094456.chunk.css",
+    "main.css": "/My_Portfolio/static/css/main.364c6a4a.css",
+    "main.js": "/My_Portfolio/static/js/main.3b3e6067.js",
+    "static/css/64.cc8cfcac.chunk.css": "/My_Portfolio/static/css/64.cc8cfcac.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/My_Portfolio/static/js/64.56dc6704.chunk.js",
-    "static/css/769.a47ab166.chunk.css": "/My_Portfolio/static/css/769.a47ab166.chunk.css",
+    "static/css/769.231ba083.chunk.css": "/My_Portfolio/static/css/769.231ba083.chunk.css",
     "static/js/769.da1be6c5.chunk.js": "/My_Portfolio/static/js/769.da1be6c5.chunk.js",
     "static/media/logo-nokia.png": "/My_Portfolio/static/media/logo-nokia.e676d0cdefb6ce45ab6f.png",
     "static/media/manOnTable.svg": "/My_Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -16,15 +16,15 @@
     "static/media/Google_DA_cert.png": "/My_Portfolio/static/media/Google_DA_cert.7d660bb152e882abc0bf.png",
     "static/media/skill.svg": "/My_Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/My_Portfolio/index.html",
-    "main.a12a6186.css.map": "/My_Portfolio/static/css/main.a12a6186.css.map",
-    "main.30521b8b.js.map": "/My_Portfolio/static/js/main.30521b8b.js.map",
-    "64.fd094456.chunk.css.map": "/My_Portfolio/static/css/64.fd094456.chunk.css.map",
+    "main.364c6a4a.css.map": "/My_Portfolio/static/css/main.364c6a4a.css.map",
+    "main.3b3e6067.js.map": "/My_Portfolio/static/js/main.3b3e6067.js.map",
+    "64.cc8cfcac.chunk.css.map": "/My_Portfolio/static/css/64.cc8cfcac.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/My_Portfolio/static/js/64.56dc6704.chunk.js.map",
-    "769.a47ab166.chunk.css.map": "/My_Portfolio/static/css/769.a47ab166.chunk.css.map",
+    "769.231ba083.chunk.css.map": "/My_Portfolio/static/css/769.231ba083.chunk.css.map",
     "769.da1be6c5.chunk.js.map": "/My_Portfolio/static/js/769.da1be6c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a12a6186.css",
-    "static/js/main.30521b8b.js"
+    "static/css/main.364c6a4a.css",
+    "static/js/main.3b3e6067.js"
   ]
 }
