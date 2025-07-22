@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.06d3c16d.css",
-    "main.js": "/My_Portfolio/static/js/main.db5ea8fa.js",
+    "main.js": "/My_Portfolio/static/js/main.1e04b34b.js",
     "static/css/64.cc8cfcac.chunk.css": "/My_Portfolio/static/css/64.cc8cfcac.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/My_Portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.231ba083.chunk.css": "/My_Portfolio/static/css/769.231ba083.chunk.css",
@@ -10,15 +10,17 @@
     "static/media/logo-nokia.png": "/My_Portfolio/static/media/logo-nokia.e676d0cdefb6ce45ab6f.png",
     "static/media/manOnTable.svg": "/My_Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/My_Portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/McKinsey-Logo.png": "/My_Portfolio/static/media/McKinsey-Logo.4e0ad118a531a1a0c9a7.png",
     "static/media/developerActivity.svg": "/My_Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/Fraud.png": "/My_Portfolio/static/media/Fraud.097d2f70ef35b0f99085.png",
+    "static/media/CISCO.png": "/My_Portfolio/static/media/CISCO.f78aabb238607753ddb4.png",
     "static/media/IEEE.png": "/My_Portfolio/static/media/IEEE.25b1bee58a9819b0f7f5.png",
     "static/media/JSS.png": "/My_Portfolio/static/media/JSS.d320714deb1b0f5487c0.png",
     "static/media/Google_DA_cert.png": "/My_Portfolio/static/media/Google_DA_cert.7d660bb152e882abc0bf.png",
     "static/media/skill.svg": "/My_Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/My_Portfolio/index.html",
     "main.06d3c16d.css.map": "/My_Portfolio/static/css/main.06d3c16d.css.map",
-    "main.db5ea8fa.js.map": "/My_Portfolio/static/js/main.db5ea8fa.js.map",
+    "main.1e04b34b.js.map": "/My_Portfolio/static/js/main.1e04b34b.js.map",
     "64.cc8cfcac.chunk.css.map": "/My_Portfolio/static/css/64.cc8cfcac.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/My_Portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.231ba083.chunk.css.map": "/My_Portfolio/static/css/769.231ba083.chunk.css.map",
@@ -26,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.06d3c16d.css",
-    "static/js/main.db5ea8fa.js"
+    "static/js/main.1e04b34b.js"
   ]
 }
